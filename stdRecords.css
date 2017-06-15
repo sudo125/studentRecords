@@ -1,0 +1,113 @@
+.mainBody{
+    margin: 0 auto;
+    width: 80%;
+    background-color: lavender;
+   /*text-align: center;*/
+    
+}
+
+#addInfo{
+    width: 100%;
+    background-color: darkgreen;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    font-style: bold;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.tabledecor{
+    border: 3px double;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.celldecor{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-color: black;
+    
+}
+.tableDive{
+    margin: 10px;
+    border-color: black;
+    padding: 10px;
+}
+.lableDecor{
+    text-align: left;
+    border-color: black;
+    padding: 10px;
+}
+.textBoxDecor{
+    text-align: left;
+    border-color: black;
+    padding:10px;
+    margin: 10px;
+}
+
+.footerAtt{
+    border: 1px;
+    border-color: black;
+    background-color: darkgreen;
+    padding: 10px;
+    align-items: baseline;
+    border-radius: 10px;
+    clear: both;
+} 
+.searchAtt{
+    float:right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#myInput {
+  /*background-image: url('http://c.ymcdn.com/sites/www.acsp.org/resource/resmgr/Images/200px-magnifying_glass_icon.png');*/
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.edit{
+    background-image: url(https://cdn2.iconfinder.com/data/icons/social-messaging-productivity-1/128/write-compose-512.png);
+    width:48px;
+    height: 48px;
+    background-size: cover;
+    margin:10px;
+    background-color: forestgreen;
+}
+
+.delete{
+    background-image: url(https://maxcdn.icons8.com/Share/icon/Editing//delete1600.png);
+    width:48px;
+    height: 48px;
+    background-size: cover;
+    margin:10px;
+    background-color: forestgreen;
+}
+
+.view{
+    background-image: url(https://cdn3.iconfinder.com/data/icons/rcons-file-action/512/search_file-512.png);
+    width:48px;
+    height: 48px;
+    background-size: cover;
+    margin:10px;
+    background-color: forestgreen;
+}

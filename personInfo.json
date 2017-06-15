@@ -1,0 +1,30 @@
+[
+{
+    "name":"Sudipta",
+    "location":"NJ",
+    "phoneNumber":"8625889787",
+    "address":"310 clevland ave, harrison",
+    "age":"25",
+    "email":"ss2873@njit.edu",
+    "mark":"92"
+},
+{
+    "name":"Sreekar",
+    "location":"NJ",
+    "phoneNumber":"8625886235",
+    "address":"423 william street, harrison",
+    "age":"27",
+    "email":"ps622@njit.edu",
+    "mark":"95"
+},
+{
+    "name":"Venu",
+    "location":"NJ",
+    "phoneNumber":"8625886549",
+    "address":"280 harrison ave, harrison",
+    "age":"27",
+    "email":"vv278@njit.edu",
+    "mark":"99"
+}
+
+]   

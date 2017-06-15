@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Details of people
+        </title>
+        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="stdRecords.css">
+        <script src="stdRecords.js" ></script>
+     
+         <header>
+            <h1>Student Records</h1>
+             <!--<input type="text" id="searchBar" class="searchAtt" name="search" placeholder="Search" onkeyup="searchStd"><br>-->
+            <input type="button" id="addInfo" class="btn btn-default" value="Register Information" onclick="showHideForm()"> 
+        </header>
+        <br>
+    </head>
+    <body class="mainBody">
+       
+        
+        
+        <div class="container" id="displayDetails">
+
+          <form name="stdForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                    <input name="zname" type="text" placeholder="Enter your name" id="name" class="form-control">
+                    <div id = "nameError"></div>
+            </div>
+            <div class="form-group">
+             <label for="loc" >Location:</label>
+                    <input name="zloc" type="text" placeholder="Enter Your Location" id="loc" class="form-control">
+                    <div id = "locError"></div>
+            </div>
+            <div class="form-group">
+            <label for="pnum" >Phone Number:</label>
+                    <input name="zpnum" type="text" placeholder="Enter Your Phone Number" id="pnum" class="form-control">
+                    <div id = "pnumError"></div>
+            </div>
+              <div class="form-group">
+            <label for="add" >Address:</label>
+                    <input name="zadd" type="text" placeholder="Enter Your Address" id="add" class="form-control">
+                    <div id = "addError"></div>
+            </div>
+              <div class="form-group">
+            <label for="age" >Age:</label>
+                    <input name="zage" type="text" placeholder="Enter Your Age" id="age" class="form-control">
+                    <div id = "ageError"></div>
+            </div>
+              <div class="form-group">
+            <label for="email" >Email:</label>
+                    <input name="zemail" type="text" placeholder="Enter Your Email-ID" id="email" class="form-control">
+                    <div id = "emailError"></div>
+              </div>
+            <div class="form-group">
+            <label for="mark" >Mathematics Mark's:</label>
+                    <input name="zmark" type="text" placeholder="Enter Your Maths Math" id="mark" class="form-control">
+                    <div id = "markError"></div>
+              </div>
+            <button id="submitClick" class="btn btn-default" type="button">Submit</button>
+            <button id="clear" class="btn btn-default">Clear</button>
+            
+          </form>
+    </div>
+      
+      <br>
+        
+        <input type="text" id="myInput" onkeyup="seachBar()" placeholder="Search for names.." title="Type in a name">
+
+        
+        <div class="container" align="center">
+            <table id="showDeatilsInTable" class="table table-bordered">
+                <tr id="tr">
+                    <th id="nameCell" class="celldecor">Name</th>
+                    <th id="locCell" class="celldecor">Location</th>
+                    <th id="pnumCell" class="celldecor">Phone Number</th>
+                    <th id="addCell" class="celldecor">Address</th>
+                    <th id="activities" class="celldecor">Activities</th>
+                </tr>
+                
+            </table>
+            
+        </div>
+        <footer class="footerAtt">
+            <font align="left" color="white">  Copyright&copy;<b> Sudipta Saha</b></font>
+        </footer>
+    </body>
+</html>
+
+
+
+
+ <!-- 
+this is just for my reference 
+        <div id="displayDetails">
+            <label for="name" class="lableDecor"><span>Name:</span></label>
+            <input type="text" placeholder="Enter your name" id="name" required="" class="textBoxDecor">
+                    
+            <br>
+            <label for="loc" class="lableDecor">Location:</label>
+            <input type="text" placeholder="Enter Your Location" id="loc" required="" class="textBoxDecor">
+            <br>
+            <label for="pnum" class="lableDecor">Phone Number:</label>
+            <input type="text" placeholder="Enter Your Phone Number" id="pnum" required="" class="textBoxDecor">
+            <br>
+            <label for="add" class="lableDecor">Address:</label>
+            <input type="text" placeholder="Enter Your Address" id="add" required="" class="textBoxDecor">
+            <br>
+            <button id="submit" onclick="submitClick()">Submit</button>
+           
+        </div>
+      --> 
